@@ -31,8 +31,7 @@ const getTopValues = (input, topLimit) => {
   return maxValue;
 };
 
-const sum = (array) =>
-  array.reduce((previousValue, currentValue) => previousValue + currentValue);
+const sum = (array) => array.reduce((previousValue, currentValue) => previousValue + currentValue);
 
 const input = getInput(import.meta.url);
 const topValues = getTopValues(input, 3);
